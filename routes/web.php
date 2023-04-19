@@ -48,6 +48,13 @@ Route::prefix('Blogs')->group(function () {
     Route::view('Detail', 'blogs/detail');
    
 });
+Route::prefix('Chats')->group(function () {
+    Route::redirect('/', '/apps/chats');
+    Route::view('chats', 'apps/chats');
+    Route::view('mails', 'apps/mails');
+   
+   
+});
 
 Route::prefix('Path')->group(function () {
     Route::redirect('/', '/Path/List');

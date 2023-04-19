@@ -164,6 +164,26 @@
                 </ul>
             </li>
             <li>
+                <a href="#chats">
+                    <i data-acorn-icon="quiz" class="icon" data-acorn-size="18"></i>
+                    <span class="label">Records</span>
+                </a>
+                <ul id="chats">
+                    <li>
+                        <a href="/Chats/chats">
+                            <span class="label">chats</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Chats/mails">
+                            <span class="label">mails</span>
+                        </a>
+                    </li>
+                    
+                   
+                </ul>
+            </li>
+            <li>
                 <a href="#paths">
                     <i data-acorn-icon="destination" class="icon" data-acorn-size="18"></i>
                     <span class="label">Paths</span>
