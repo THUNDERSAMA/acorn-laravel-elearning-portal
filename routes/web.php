@@ -48,6 +48,12 @@ Route::prefix('Blogs')->group(function () {
     Route::view('Detail', 'blogs/detail');
    
 });
+Route::prefix('Manage')->group(function () {
+    Route::redirect('/', '/manage/prices');
+    Route::view('Prices', 'manage/prices');
+    Route::view('Coupons', 'manage/coupons');
+   
+});
 Route::prefix('Chats')->group(function () {
     Route::redirect('/', '/apps/chats');
     Route::view('chats', 'apps/chats');
